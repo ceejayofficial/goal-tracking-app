@@ -1,21 +1,11 @@
 ng new goal-tracking-app
 cd goal-tracking-app
 npm install -g @angular/cli
-npm install --save-dev @angular-devkit/build-angular
-npm install primeng @angular/material ngstate json-server
 
-npm install primeng --save
-npm install primeicons @angular/cdk --save
+git checkout -b install-primeng
 
 
-Git
-git checkout -b feature/goal-tracking-ui
-git add .
-git commit -m "Add goal tracking UI feature"
-git push origin feature/goal-tracking-ui
-
-
-
-
-
-
+primeng installation for angular19
+***********************************
+npm install primeng@17.18.12 --force
+npm install primeicons --force
